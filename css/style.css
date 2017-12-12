@@ -509,6 +509,7 @@ a:hover .link-line{
   justify-content: center;
   align-items: center;
   position: relative;
+  flex-direction: column;
 }
 .js-section.active .content-bottom p {
   animation: contentBottom 30s linear infinite;
