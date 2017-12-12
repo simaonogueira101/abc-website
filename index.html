@@ -1,0 +1,249 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <div class="preload">
+      <img src="animation-bits/1.png" alt="">
+      <img src="animation-bits/2.png" alt="">
+      <img src="animation-bits/3.png" alt="">
+      <img src="animation-bits/4.png" alt="">
+      <img src="animation-bits/5.png" alt="">
+      <img src="animation-bits/6.png" alt="">
+      <img src="animation-bits/7.png" alt="">
+      <img src="animation-bits/8.png" alt="">
+      <img src="animation-bits/9.png" alt="">
+      <img src="animation-bits/10.png" alt="">
+      <img src="animation-bits/11.png" alt="">
+      <img src="animation-bits/12.png" alt="">
+    </div>
+
+</head>
+
+<body id="body">
+
+    <div class="more about-more invisible" id="about-more">
+      <iframe src="more/more-about.html"></iframe>
+      <div class="more-exit">
+        <img src="x.svg" class="more-exit-x" id="exit-about" onclick="exit()">
+      </div>
+    </div>
+
+    <div class="more happening-more invisible" id="about-happening">
+      <iframe src="more/more-happening.html"></iframe>
+      <div class="more-exit">
+        <img src="x.svg" class="more-exit-x" id="exit-happening" onclick="exit()">
+      </div>
+    </div>
+
+    <div class="more greenery-more invisible" id="about-greenery">
+      <iframe src="more/more-greenery.html"></iframe>
+      <div class="more-exit">
+        <img src="x.svg" class="more-exit-x" id="exit-greenery" onclick="exit()">
+      </div>
+    </div>
+
+    <div class="more legume-more invisible" id="about-legume">
+      <iframe src="more/more-legume.html"></iframe>
+      <div class="more-exit">
+        <img src="x.svg" class="more-exit-x" id="exit-legume" onclick="exit()">
+      </div>
+    </div>
+
+    <div class="more gardens-more invisible" id="about-gardens">
+      <iframe src="more/more-gardens.html"></iframe>
+      <div class="more-exit">
+        <img src="x.svg" class="more-exit-x" id="exit-gardens" onclick="exit()">
+      </div>
+    </div>
+
+    <nav id="nav" class="inactive">
+        <div class="x-container">
+            <img src="x.svg" class="x">
+        </div>
+
+        <div class="section">
+            <div class="section-left">
+                <div class="info">
+                    <div class="info-container" id="placeholder-info">
+                        <h1 class="title is-1 bold">Hi there!</h1>
+                        <p class="subtitle is-4 bold">Feelin' Bio already?</p>
+
+                        <p class="is-4 bold">
+                            This is just a placeholder. Hover over the other links
+                            to read a little more about what you can find in each of them.
+                        </p>
+                    </div>
+                    <div class="invisible info-container" id="home-info">
+                        <h1 class="title is-1 bold">Welcome!</h1>
+                        <p class="subtitle is-4 bold">description</p>
+
+                        <p class="is-4 bold">
+                            "Eat, breathe, live biological." - It’s an initiative produced by the brand to encourage a biological culture by the citizens of Coimbra, as well as foreigners who visit the city, inserted in the culture. Our goal is to improve people's lives through a responsible, healthy and tasty diet, so we offer the most varied information about organic farming in Coimbra, such as workshops, exhibitions, conferences, unusual vegetables and the best time and conditions to plant your favorite vegetables and fruit during the year.
+                        </p>
+                    </div>
+                    <div class="invisible info-container" id="about-info">
+                        <h1 class="title is-1 bold">What are we about?</h1>
+                        <p class="subtitle is-4 bold">description</p>
+
+                        <p class="is-4 bold">
+                          How we promote biological agriculture
+                          and educate people to environmental matters and issues.
+                        </p>
+                    </div>
+                    <div class="invisible info-container" id="happening-info">
+                        <h1 class="title is-1 bold">Coming up...</h1>
+                        <p class="subtitle is-4 bold">description</p>
+
+                        <p class="is-4 bold">
+                            In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit eget elit facilisis tristique. Nam vel iaculis mauris. Sed ullamcorper tellus erat, non ultrices sem tincidunt euismod. Fusce rhoncus porttitor velit,
+                            eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.
+                        </p>
+                    </div>
+                    <div class="invisible info-container" id="greenery-info">
+                        <h1 class="title is-1 bold">It's broccoli season!</h1>
+                        <p class="subtitle is-4 bold">description</p>
+
+                        <p class="is-4 bold">
+                            In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit eget elit facilisis tristique. Nam vel iaculis mauris. Sed ullamcorper tellus erat, non ultrices sem tincidunt euismod. Fusce rhoncus porttitor velit,
+                            eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="footer-nav">
+                        <a id="contacts" class="bold is-6">This links to contacts.</a>
+                        <a id="project-info" class="bold is-6">This links to project info.</a>
+                    </div>
+                </div>
+                <img src="picker.svg" class="picker">
+            </div>
+            <div class="section-right">
+                <a class="title is-1 bold" id="home">HOME</a>
+                <a class="title is-1 bold" id="about">ABOUT</a>
+                <a class="title is-1 bold" id="happening">HAPPENING</a>
+                <a class="title is-1 bold" id="greenery">GREENERY</a>
+                <div>
+                    <img src="x.svg" class="exit">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="js-spiral" id="js-spiral">
+        <div class="js-section js-section-animation section_-2">
+            <div class="content">
+                <h1 class="is-1 title bold">This is project info.</h1>
+                <h2 class="is-3 subtitle thin">And this is a subtitle.</h2>
+                <p class="is-5 subtitle thin">And this is just a paragraph.</p>
+            </div>
+        </div>
+        <div class="js-section js-section-animation section_-1">
+            <div class="content">
+                <h1 class="is-1 title bold">These are contacts.</h1>
+                <h2 class="is-3 subtitle thin">And this is a subtitle.</h2>
+                <p class="is-5 subtitle thin">And this is just a paragraph.</p>
+            </div>
+        </div>
+        <div class="js-section section_0">
+            <div class="content">
+              <img src="home-title.svg">
+            </div>
+        </div>
+        <div class="js-section js-section-animation section_1">
+          <div class="content">
+            <div class="content-top">
+              <p class="bold super title">
+                About
+                About
+                About
+                About
+                About
+                About
+              </p>
+            </div>
+            <div class="content-middle medium" onclick="aboutMore()">
+              Learn more...
+            </div>
+            <div class="content-bottom">
+              <p class="bold subtitle big mobile-invisible">
+                ABC - Biological Agriculture Coimbra (Agricultura Biológica Coimbra)
+                is a platform born from a civil society initiative, aiming to
+                integrate biological agriculture in the city of Coimbra. ABC’s
+                goals are to humanize the city, promote biological agriculture
+                and educate people to environmental matters and issues.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="js-section js-section-animation section_2">
+          <div class="content">
+            <div class="content-top">
+              <p class="bold super title">
+                Happening
+                Happening
+                Happening
+                Happening
+                Happening
+              </p>
+            </div>
+            <div class="content-middle medium" onclick="aboutHappening()">
+              Learn more...
+            </div>
+            <div class="content-bottom">
+              <p class="bold subtitle big mobile-invisible">
+                This is the place you come to ready your bio calendar. We've got
+                workshops, exhibitions... All sorts of events made to turn you
+                into the best and healthiest version of your own self!
+                <br>
+                Don't forget to check our monthly WWOOF event!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="js-section js-section-animation section_3">
+            <div class="content">
+                <h1 class="is-1 title bold">This is greenery.</h1>
+                <h2 class="is-3 subtitle thin">And this is a subtitle.</h2>
+                <p class="is-5 subtitle thin">And this is just a paragraph.</p>
+
+                <a id="legume">This links to legume.</a>
+                <a id="gardens">This links to gardens.</a>
+
+                <a onclick="aboutGreenery()">Learn more.</a>
+            </div>
+        </div>
+        <div class="js-section js-section-animation section_4">
+            <div class="content">
+                <h1 class="is-1 title bold">This is legume.</h1>
+                <h2 class="is-3 subtitle thin">And this is a subtitle.</h2>
+                <p class="is-5 subtitle thin">And this is just a paragraph.</p>
+
+                <a onclick="aboutLegume()">Learn more.</a>
+            </div>
+        </div>
+        <div class="js-section js-section-animation section_5">
+            <div class="content">
+                <h1 class="is-1 title bold">This is gardens.</h1>
+                <h2 class="is-3 subtitle thin">And this is a subtitle.</h2>
+                <p class="is-5 subtitle thin">And this is just a paragraph.</p>
+
+                <a onclick="aboutGardens()">Learn more.</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/layout.js"></script>
+    <script src="js/home-background.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/tilt.jquery.js"></script>
+</body>
+
+</html>

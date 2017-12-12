@@ -1,0 +1,179 @@
+.js-spiral {
+  position: fixed;
+}
+
+.js-section {
+  position: absolute;
+  left: -100%;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  padding: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-width: 20px;
+  transition: background-color 1s, border-width 1s;
+}
+.js-section-animation {
+  animation: iconIn 1s;
+  animation-fill-mode: forwards;
+}
+.js-section.active {
+  transition: border-width 1s linear 0.2s, background-color 1s;
+  border-width: 5px;
+  background-color: #F2F2F2;
+  transition-delay: 0.5s;
+}
+.js-section-animation.active {
+  animation: iconOut 1s;
+  animation-fill-mode: forwards;
+}
+.content {
+  transition: opacity 1s;
+  transition-delay: 0.5s;
+}
+.js-section .content{
+  opacity: 0;
+}
+.js-section.active .content{
+  opacity: 1;
+}
+
+@keyframes iconIn {
+  0% {
+    background-size: 0%;
+  }
+  80% {
+    background-size: 60%;
+  }
+  100% {
+    background-size: 60%;
+  }
+}
+@keyframes iconOut {
+  0% {
+    background-size: 60%;
+  }
+  80% {
+    background-size: 0%;
+  }
+  100% {
+    background-size: 0%;
+  }
+}
+
+/*
+.section_-1 {
+  background-image: url("../icon-black.svg");
+  background-color: var(--light-color);
+  border-color: var(--light-color);
+}
+.section_-1 .bold {
+  color: var(--light-color);
+}
+.section_-1.active {
+  color: var(--light-color);
+  background-color: var(--dark-color);
+}
+*/
+
+.section_-2 {
+  background-image: url("../icon.svg");
+  background-color: var(--red-color);
+  border-color: var(--red-color);
+}
+.section_-2 .bold {
+  color: var(--red-color);
+}
+.section_-2.active {
+
+}
+
+.section_-1 {
+  background-image: url("../icon.svg");
+  background-color: var(--green-color);
+  border-color: var(--green-color);
+}
+.section_-1 .bold {
+  color: var(--green-color);
+}
+.section_-1.active {
+
+}
+
+.section_0 {
+  background-color: var(--red-color);
+  border-color: var(--red-color);
+  background-size: 250%;
+  border-width: 0px;
+  transition: background-size 0.8s;
+}
+.section_0 .bold {
+  color: var(--red-color);
+}
+.section_0.active {
+  border-width: 0px;
+  background-size: 90%;
+  background-image: url("../animation-bits/1.png");
+  transition: background-size 0.8s;
+}
+
+.section_1 {
+  background-image: url("../icon.svg");
+  background-color: var(--green-color);
+  border-color: var(--green-color);
+}
+.section_1 .bold {
+  color: var(--green-color);
+}
+.section_1.active {
+
+}
+
+.section_2 {
+  background-image: url("../icon.svg");
+  background-color: var(--emerald-color);
+  border-color: var(--emerald-color);
+}
+.section_2 .bold {
+  color: var(--emerald-color);
+}
+.section_2.active {
+
+}
+
+.section_3 {
+  background-image: url("../icon.svg");
+  background-color: var(--ocean-color);
+  border-color: var(--ocean-color);
+}
+.section_3 .bold {
+  color: var(--ocean-color);
+}
+.section_3.active {
+
+}
+
+.section_4 {
+  background-image: url("../icon.svg");
+  background-color: var(--blue-color);
+  border-color: var(--blue-color);
+}
+.section_4 .bold {
+  color: var(--blue-color);
+}
+.section_4.active {
+
+}
+
+.section_5 {
+  background-image: url("../icon.svg");
+  background-color: var(--brown-color);
+  border-color: var(--brown-color);
+}
+.section_5 .bold {
+  color: var(--brown-color);
+}
+.section_5.active {
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="320px" viewBox="0 0 42 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>bulge-bottom</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bulge-bottom" transform="translate(21.000000, 159.500000) rotate(-90.000000) translate(-21.000000, -159.500000) translate(-139.000000, 139.000000)" fill-rule="nonzero" fill="#FAFAFA">
+            <path d="M319,9.8 L319,0 L0,0 L0,10.3 L20.8,10.3 C101.1,14.3 123.9,40.7 159.7,40.7 C195.5,40.7 218.3,14.3 298.6,10.3 L319,10.3 L319,9.8 C319.1,9.8 319.3,9.8 319.4,9.8 L319,9.8 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
