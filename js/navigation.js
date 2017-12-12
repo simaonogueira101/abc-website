@@ -1,5 +1,5 @@
 $(function(){
-  $(".x-container, .exit, #home, #about, #happening, #greenery, #contacts, #project-info" ).click(function(){
+  $(".x-container, .exit, #home, #about, #happening, #greenery, #contacts, #project-info" ).on('click touchstart', function(){
     $("nav").toggleClass("inactive")
     $("nav").toggleClass("active")
   })
