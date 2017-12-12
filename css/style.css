@@ -68,6 +68,10 @@ body {
     bottom: 0;
     width: 100%;
   }
+  nav.inactive:hover {
+      opacity: 1;
+      height: 120px;
+  }
   nav.active {
       transition: height 1.5s;
       height: 100%;
