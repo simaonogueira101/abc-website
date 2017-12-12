@@ -112,8 +112,6 @@ $(function() {
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 1;
     e.stopPropagation()
-    $("nav").toggleClass("active")
-    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
   $('#home').on('click touchstart', function(e){
@@ -122,8 +120,6 @@ $(function() {
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 2;
     e.stopPropagation()
-    $("nav").toggleClass("active")
-    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
   $('#about, #exit-about').on('click touchstart', function(e){
@@ -132,8 +128,6 @@ $(function() {
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 3;
     e.stopPropagation()
-    $("nav").toggleClass("active")
-    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
   $('#happening, #exit-happening').on('click touchstart', function(e){
@@ -142,8 +136,6 @@ $(function() {
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 4;
     e.stopPropagation()
-    $("nav").toggleClass("active")
-    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
   $('#greenery, #exit-greenery').on('click touchstart', function(e){
@@ -152,8 +144,6 @@ $(function() {
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 5;
     e.stopPropagation()
-    $("nav").toggleClass("active")
-    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
   $('#legume, #exit-legume').on('click touchstart', function(e){
@@ -162,8 +152,6 @@ $(function() {
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 6;
     e.stopPropagation()
-    $("nav").toggleClass("active")
-    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
   $('#gardens, #exit-gardens').on('click touchstart', function(e){
@@ -172,8 +160,6 @@ $(function() {
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 7;
     e.stopPropagation()
-    $("nav").toggleClass("active")
-    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
 

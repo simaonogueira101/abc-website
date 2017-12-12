@@ -5,7 +5,7 @@ $(function(){
   })
 })
 $(function(){
-  $(".exit" ).on('click touchstart', function(){
+  $(".exit").on('click touchstart', function(){
     $("nav").toggleClass("active")
     $("nav").toggleClass("inactive")
   })
