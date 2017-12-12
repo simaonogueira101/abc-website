@@ -96,68 +96,84 @@ $(function() {
   })
 
   // Testing links withing the page
-  $('#project-info').on('click',function(e){
+  $('#project-info').on('click touchstart', function(e){
     //console.log(currentSection);
     var calcSection = 0 - currentSection;
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 0;
     e.stopPropagation()
+    $("nav").toggleClass("active")
+    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
-  $('#contacts').on('click',function(e){
+  $('#contacts').on('click touchstart', function(e){
     //console.log(currentSection);
     var calcSection = 1 - currentSection;
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 1;
     e.stopPropagation()
+    $("nav").toggleClass("active")
+    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
-  $('#home').on('click',function(e){
+  $('#home').on('click touchstart', function(e){
     //console.log(currentSection);
     var calcSection = 2 - currentSection;
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 2;
     e.stopPropagation()
+    $("nav").toggleClass("active")
+    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
-  $('#about, #exit-about').on('click',function(e){
+  $('#about, #exit-about').on('click touchstart', function(e){
     //console.log(currentSection);
     var calcSection = 3 - currentSection;
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 3;
     e.stopPropagation()
+    $("nav").toggleClass("active")
+    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
-  $('#happening, #exit-happening').on('click',function(e){
+  $('#happening, #exit-happening').on('click touchstart', function(e){
     //console.log(currentSection);
     var calcSection = 4 - currentSection;
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 4;
     e.stopPropagation()
+    $("nav").toggleClass("active")
+    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
-  $('#greenery, #exit-greenery').on('click',function(e){
+  $('#greenery, #exit-greenery').on('click touchstart', function(e){
     //console.log(currentSection);
     var calcSection = 5 - currentSection;
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 5;
     e.stopPropagation()
+    $("nav").toggleClass("active")
+    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
-  $('#legume, #exit-legume').on('click',function(e){
+  $('#legume, #exit-legume').on('click touchstart', function(e){
     //console.log(currentSection);
     var calcSection = 6 - currentSection;
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 6;
     e.stopPropagation()
+    $("nav").toggleClass("active")
+    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
-  $('#gardens, #exit-gardens').on('click',function(e){
+  $('#gardens, #exit-gardens').on('click touchstart', function(e){
     //console.log(currentSection);
     var calcSection = 7 - currentSection;
     animateScroll((currentSection + calcSection) * -90,rotation)
     currentSection = 7;
     e.stopPropagation()
+    $("nav").toggleClass("active")
+    $("nav").toggleClass("inactive")
     //console.log(currentSection);
   })
 

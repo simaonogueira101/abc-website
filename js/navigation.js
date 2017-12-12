@@ -1,7 +1,13 @@
 $(function(){
-  $(".x-container, .exit, #home, #about, #happening, #greenery, #contacts, #project-info" ).on('click touchstart', function(){
-    $("nav").toggleClass("inactive")
+  $(".x-container" ).on('click touchstart', function(){
     $("nav").toggleClass("active")
+    $("nav").toggleClass("inactive")
+  })
+})
+$(function(){
+  $(".exit" ).on('click touchstart', function(){
+    $("nav").toggleClass("active")
+    $("nav").toggleClass("inactive")
   })
 })
 
