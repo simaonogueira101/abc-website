@@ -554,7 +554,6 @@ a:hover .link-line{
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   box-sizing: border-box;
 }
