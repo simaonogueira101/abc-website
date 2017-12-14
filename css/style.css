@@ -418,7 +418,9 @@ iframe {
 .iframe-content {
   padding: 32px;
   height: 100vh;
+  width: calc(100vw - 0px);
   background: var(--light-color);
+  box-sizing: border-box;
 }
 
 .responsive-link {
@@ -560,14 +562,17 @@ a:hover .link-line{
 .i-container {
   width: 100%;
   display: flex;
+  box-sizing: border-box;
 }
 .i-left {
   font-family: CooperHewitt-medium;
   line-height: 120%;
+  box-sizing: border-box;
 }
 .i-right {
   font-family: CooperHewitt-medium;
   line-height: 120%;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 800px) {
