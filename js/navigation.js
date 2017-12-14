@@ -1,13 +1,19 @@
 $(function(){
-  $(".x-container" ).on('click touchstart', function(){
+  $(".x-container" ).on('click ontouchstart', function(){
     $("nav").toggleClass("active")
     $("nav").toggleClass("inactive")
   })
 })
 $(function(){
-  $(".exit").on('click touchstart', function(){
+  $(".exit2").on('click ontouchstart', function(){
     $("nav").toggleClass("active")
     $("nav").toggleClass("inactive")
+  })
+})
+$(function(){
+  $(".exit").on('click ontouchstart', function(){
+    $("nav").removeClass("active")
+    $("nav").addClass("inactive")
   })
 })
 
