@@ -509,6 +509,9 @@ a:hover .link-line{
   width: 100%;
   overflow: hidden;
 }
+.content-bottom-single {
+  height: 75% !important;
+}
 .content-bottom p {
   display: flex;
   justify-content: center;

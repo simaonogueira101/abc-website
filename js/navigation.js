@@ -1,21 +1,46 @@
-$(function(){
-  $(".x-container" ).on('click ontouchstart', function(){
-    $("nav").toggleClass("active")
-    $("nav").toggleClass("inactive")
+if ($(window).width() < 999) {
+  $(function(){
+    $(".x-container" ).on('touchstart', function(){
+      $("nav").toggleClass("active")
+      $("nav").toggleClass("inactive")
+    })
   })
-})
-$(function(){
-  $(".exit2").on('click ontouchstart', function(){
-    $("nav").toggleClass("active")
-    $("nav").toggleClass("inactive")
+  $(function(){
+    $(".exit2").on('touchstart', function(){
+      $("nav").toggleClass("active")
+      $("nav").toggleClass("inactive")
+    })
   })
-})
-$(function(){
-  $(".exit").on('click ontouchstart', function(){
-    $("nav").removeClass("active")
-    $("nav").addClass("inactive")
+  $(function(){
+    $(".exit").on('touchstart', function(){
+      $("nav").removeClass("active")
+      $("nav").addClass("inactive")
+    })
   })
-})
+}
+else {
+  $(function(){
+    $(".x-container" ).on('click', function(){
+      $("nav").toggleClass("active")
+      $("nav").toggleClass("inactive")
+    })
+  })
+  $(function(){
+    $(".exit2").on('click', function(){
+      $("nav").toggleClass("active")
+      $("nav").toggleClass("inactive")
+    })
+  })
+  $(function(){
+    $(".exit").on('click', function(){
+      $("nav").removeClass("active")
+      $("nav").addClass("inactive")
+    })
+  })
+}
+
+
+
 
 $(function(){
   $("#home").hover(function(){
