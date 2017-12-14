@@ -412,6 +412,7 @@ iframe {
   width: 100%;
   height: calc(100vh - 32px - 100px);
   border-radius: 8px;
+  overflow-y: scroll;
 }
 
 .iframe-content {
