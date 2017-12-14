@@ -410,7 +410,7 @@ nav .section-right a:hover {
 iframe {
   box-sizing: border-box;
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 32px - 100px);
   border-radius: 8px;
 }
 
