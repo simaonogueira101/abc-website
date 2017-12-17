@@ -415,8 +415,9 @@ nav .section-right a:hover {
 
 iframe {
   box-sizing: border-box;
-  width: 100%;
+  width: calc(90%);
   height: calc(100vh - 32px - 100px);
+  margin: 0 auto;
   border-radius: 8px;
   overflow-y: scroll;
   overflow-x: hidden;
