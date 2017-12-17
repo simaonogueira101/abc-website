@@ -11,7 +11,9 @@
   padding: 32px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 60%;
   border-width: 20px;
+  animation-fill-mode: forwards;
   transition: background-color 1s, border-width 1s;
 }
 .js-section-animation {
@@ -19,6 +21,7 @@
   animation-fill-mode: forwards;
 }
 .js-section.active {
+  background-size: 0%;
   transition: border-width 1s linear 0.2s, background-color 1s;
   border-width: 5px;
   background-color: #F2F2F2;
