@@ -406,6 +406,12 @@ nav .section-right a:hover {
 .gardens-more {
   background-color: var(--brown-color);
 }
+.info-more {
+  background-color: var(--red-color);
+}
+.contacts-more {
+  background-color: var(--green-color);
+}
 
 iframe {
   box-sizing: border-box;
@@ -448,7 +454,6 @@ iframe {
 }
 
 a {
-  display: inline-block;
   position: relative;
 }
 
@@ -620,4 +625,16 @@ a:hover .link-line{
 .contacts-p a {
   display: block;
   white-space: nowrap;
+}
+
+
+.i-image {
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.i-image-about {
+  background-image: url("../images/cards.JPG");
 }

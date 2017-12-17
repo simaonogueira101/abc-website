@@ -162,29 +162,42 @@ $(function() {
     e.stopPropagation()
     //console.log(currentSection);
   })
+  $('#gardens, #exit-contacts').on('click touchstart', function(e){
+    //console.log(currentSection);
+    currentSection = -1;
+    e.stopPropagation()
+    //console.log(currentSection);
+  })
+  $('#gardens, #exit-info').on('click touchstart', function(e){
+    //console.log(currentSection);
+    currentSection = -2;
+    e.stopPropagation()
+    //console.log(currentSection);
+  })
 
 
 // FUNCTIONS
 ////////////
 
   function scrollHandler() {
-    if(rotation < 120) {
-      requestAnimationFrame(function(){
-        var scale = Math.pow(aspect,rotation/90);
-        currentSection = Math.min(sectionCount + 2,Math.max(-sectionCount,Math.floor((rotation-30)/-90)));
-        spiral.css({
-          transform: 'rotate(' + rotation + 'deg) scale(' + scale + ')',
-        })
-        sections.removeClass('active')
-        if( firstTimer == 0 ){
-          setTimeout(function(){
-            sections.eq(currentSection).addClass('active')
-            firstTimer = 1;
-          }, 0);
-        } else {
-          sections.eq(currentSection).addClass('active')
-        }
+    requestAnimationFrame(function(){
+      var scale = Math.pow(aspect,rotation/90);
+      currentSection = Math.min(sectionCount + 2,Math.max(-sectionCount,Math.floor((rotation-30)/-90)));
+      spiral.css({
+        transform: 'rotate(' + rotation + 'deg) scale(' + scale + ')',
       })
+      sections.removeClass('active')
+      if( firstTimer == 0 ){
+        setTimeout(function(){
+          sections.eq(currentSection).addClass('active')
+          firstTimer = 1;
+        }, 0);
+      } else {
+        sections.eq(currentSection).addClass('active')
+      }
+    })
+    if(rotation < 120) {
+
     }
   }
 

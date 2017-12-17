@@ -59,7 +59,7 @@ $(function(){
     $(".picker").removeClass("picker-3")
     $(".picker").removeClass("picker-4")
     $(".picker").addClass("picker-2")
-    $("#about-info").toggleClass("invisible")
+    $("#about-info-nav").toggleClass("invisible")
     $("#placeholder-info").toggleClass("invisible")
   })
 })
@@ -100,10 +100,18 @@ function aboutLegume(){
 function aboutGardens(){
   document.getElementById("about-gardens").classList.remove('invisible');
 }
+function aboutContacts(){
+  document.getElementById("about-contacts").classList.remove('invisible');
+}
+function aboutInfo(){
+  document.getElementById("about-info").classList.remove('invisible');
+}
 function exit(){
   document.getElementById("about-more").classList.add('invisible');
   document.getElementById("about-happening").classList.add('invisible');
   document.getElementById("about-greenery").classList.add('invisible');
   document.getElementById("about-legume").classList.add('invisible');
   document.getElementById("about-gardens").classList.add('invisible');
+  document.getElementById("about-contacts").classList.add('invisible');
+  document.getElementById("about-info").classList.add('invisible');
 }
