@@ -554,7 +554,7 @@ a:hover .link-line{
 }
 
 .i-center {
-  font-family: CooperHewitt-bold;
+  font-family: goldenRatio-bold;
   line-height: 120%;
   width: 100%;
   display: flex;
@@ -589,6 +589,9 @@ a:hover .link-line{
     width: 100%;
     padding-bottom: 32px;
   }
+  .insta-desktop {
+    display: none;
+  }
 }
 @media screen and (min-width: 800px) {
   .i-container {
@@ -605,8 +608,16 @@ a:hover .link-line{
   .division-mobile {
     display: none;
   }
+  .insta-mobile {
+    display: none;
+  }
 }
 
 .i-right-about a {
   margin-right: 40px;
+}
+
+.contacts-p a {
+  display: block;
+  white-space: nowrap;
 }
