@@ -74,11 +74,18 @@ html {
 .body-overlay-content {
   padding: 32px;
   box-sizing: border-box;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+  cursor: default;
+}
+.body-overlay-content:hover {
+  opacity: 1;
 }
 .body-overlay-content a {
   user-select: all;
   pointer-events: all;
   z-index: 1000;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 999px) {
