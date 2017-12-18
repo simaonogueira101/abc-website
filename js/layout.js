@@ -196,9 +196,6 @@ $(function() {
         sections.eq(currentSection).addClass('active')
       }
     })
-    if(rotation < 120) {
-
-    }
   }
 
   function animateScroll(targR,startR,speed) {
