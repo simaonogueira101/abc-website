@@ -1,5 +1,17 @@
 var firstTimer = 0;
 
+$(window).resize(function() {
+  var bodyWidth = $('body').width();
+  var bodyHeight = $('body').height();
+  console.log(bodyWidth);
+  console.log(bodyHeight);
+  $('.more').css( "width", bodyWidth );
+  $('iframe').css( "height", bodyHeight );
+
+
+});
+
+
 $(function() {
 
   var WIN = $(window);

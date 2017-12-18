@@ -396,7 +396,6 @@ nav .section-right a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  max-height: 100vh;
   height: 100vh;
   width: 100%;
   z-index: 200;
@@ -406,6 +405,7 @@ nav .section-right a:hover {
   box-sizing: border-box;
   flex-direction: column;
   animation: moreIn 0.2s;
+  min-width: 0;
 }
 
 @keyframes moreIn {
@@ -468,10 +468,17 @@ iframe {
   border-radius: 8px;
   overflow-y: scroll;
   overflow-x: scroll;
+  min-width: 0;
+}
+
+@media screen and (max-width: 350px) {
+ .iframe-content * {
+   font-size: 95% !important;
+ }
 }
 
 .iframe-content {
-  width: 100%;
+  width: calc(100% - 48px);
   padding: 24px;
   background: var(--light-color);
   box-sizing: border-box;
