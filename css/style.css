@@ -74,12 +74,8 @@ html {
 .body-overlay-content {
   padding: 32px;
   box-sizing: border-box;
-  opacity: 0.5;
   transition: opacity 0.5s;
   cursor: default;
-}
-.body-overlay-content:hover {
-  opacity: 1;
 }
 .body-overlay-content a {
   user-select: all;
@@ -91,11 +87,16 @@ html {
 @media screen and (max-width: 999px) {
   .body-overlay-content {
     align-self: flex-start;
+    opacity: 1;
   }
 }
 @media screen and (min-width: 999px) {
   .body-overlay-content {
     align-self: flex-end;
+    opacity: 0.5;
+  }
+  .body-overlay-content:hover {
+    opacity: 1;
   }
 }
 
