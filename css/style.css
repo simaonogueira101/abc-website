@@ -470,12 +470,17 @@ iframe {
   border-color: #F2F2F2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 305px) {
   .iframe-content {
     width: calc(100% - 48px);
   }
 }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 420px) {
+  .iframe-content * {
+    font-size: 0.95rem !important;
+  }
+}
+@media screen and (min-width: 305px) {
   .iframe-content {
     width: 100%;
   }
