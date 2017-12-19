@@ -470,6 +470,7 @@ iframe {
 @media screen and (max-width: 290px) {
   .iframe-content {
     width: calc(100% - 48px);
+    background: black !important;
   }
 }
 @media screen and (min-width: 290px) {
