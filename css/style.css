@@ -405,6 +405,7 @@ nav .section-right a:hover {
   flex-direction: column;
   animation: moreIn 0.2s;
   min-width: 0;
+  overflow-x: hidden;
 }
 
 @keyframes moreIn {
@@ -471,7 +472,6 @@ iframe {
 @media screen and (max-width: 320px) {
   .iframe-content {
     width: calc(100% - 48px);
-    background: purple !important;
   }
 }
 @media screen and (min-width: 320px) {
